@@ -643,10 +643,14 @@ ul{
 }
 .team-img{
   position: relative;
+  display: flex;
+  height: 300px;
+  width: 200px;
 
 }
 .team-img img{
-  width: 100%;
+  
+    width: 100%;
 }
 .team-img:before{
   position: absolute;
@@ -2048,7 +2052,7 @@ a.appoinment-btn:hover{
 }
 .contact-wrap ul li{
   position: relative;
-  padding:0px 0px 0px 0px;
+  padding:1px;
   font-size: 5px;
   text-transform: uppercase;
   font-weight: 600;
@@ -2099,6 +2103,10 @@ a.appoinment-btn:hover{
   left: 30px;
   font-size: 15px;
   color: #fb9902;
+}
+.contact1-wrap ul li a{
+  margin-left: 15px;
+  
 }
 .contact1-wrap ul li p{
   font-size: 1px;
@@ -2607,7 +2615,7 @@ text-align:center;
   padding-left: 17%;
   position: relative;
   scrollbar-width: 0;
-}
+  }
  
 .iframe-container iframe {
    border: 0;
